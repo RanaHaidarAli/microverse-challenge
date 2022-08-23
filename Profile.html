@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+<style>
+body{
+  background-color: #292929;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #EC5D89;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #77B6FC;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+/* a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+} */
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.myImage{
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+}
+.mySkills{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a class="active" href="Profile.html">Profile</a></li>
+    
+</ul>
+<section>
+    <div class="card">
+        <img src="img/my.jpeg" alt="John" style="width:100%">
+        <h1 style="color: #fff;">Haidar Ali</h1>
+        <p class="title">CEO & Founder, Software house</p>
+        <p style="color: #fff;">COMSATS University Islamabad Sahiwal Campus</p>
+        <p><button></button></p>
+      </div>
+</section>
+<section>
+    <div class="mySkills">
+        <h2 style="color: #EC5D89;">Skills</h3>
+            <h3>Graphic Designing</h3>
+            <h3>Html</h3>
+            <h3>CSSs</h3>
+            <h3>C++</h3>
+            <h3>Python</h3>
+            <h3>Data Structure and Algorithms</h3>
+            <h3>OOP</h3>
+            <h3>AI</h3>
+        <hr>
+        <h2 style="color: #EC5D89;">Tools</h3>
+            <h3>Figma</h3>
+            <h3>Adobe XD</h3>
+            <h3>Adobe illustrator</h3>
+            <h3>Adobe Photoshop</h3>
+            <h3>Vs Code</h3>
+            <h3>Dev C++</h3>
+            <h3>Anaconda</h3>
+    </div>
+</section>
+<section id="about">
+
+</section>
+</body>
+</html>
